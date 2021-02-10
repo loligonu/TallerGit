@@ -1,0 +1,32 @@
+
+.solicitud {
+    position: relative;
+    width: 470px;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .datos {
+    background-color:grey;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-flow:nowrap;
+  }
+  .phone {
+    background-color:rgb(228, 226, 226);
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .escribe {
+    background-color:rgb(206, 205, 205);
+    display: flex;
+    width: 470px;
+  }
+  body {
+    background-color: tan;
+  }

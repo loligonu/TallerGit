@@ -17,7 +17,10 @@ main {
   height: 250px;
   animation: fondo 4s;
   animation-iteration-count: infinite;
+  display: flex;
+  align-items: flex-end;
 }  
+
 @keyframes fondo {
   0% {background-color:tan;}
   50% {background-color: white;}
@@ -37,7 +40,8 @@ footer {
 }
 .img-cir:hover {
     transform: scale(1.2) rotateY(180deg) translate( 0,-10px);
-    transition: transform 5s; 
+    transition: transform 3s; 
+    opacity: 0.4;
   }
 .img-circle {  
     border-radius: 80%; 
@@ -58,7 +62,7 @@ footer {
   .middle {
     transition: .5s ease;
     opacity: 0;
-    width: 60%;
+    width: 40%;
     position: absolute;
     transform: translate(5%, 6%);
     -ms-transform: translate(10%, 10%)
@@ -78,7 +82,7 @@ footer {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    transform: translate(-45%, 10%);
+    transform: translate(-15%, 10%);
     -ms-transform: translate(10%, -50%)
   }
   .experi:hover .middle2 {
@@ -96,7 +100,7 @@ footer {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    transform: translate(-55%, 6%);
+    transform: translate(-25%, 6%);
     -ms-transform: translate(10%, -20%)
   }
   .formacion:hover .middle3 {

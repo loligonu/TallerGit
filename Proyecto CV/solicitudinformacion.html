@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="solicitud.css">
+    <title>Solicitud Informacion</title>
+</head>
+<body>
+    
+    <div class="solicitud">
+        <img src="imagenes/solicitar_.jpg" alt="Solicitud Información" height="100px">
+        <section class="datos">
+            <div class="nombre">
+            <td><label for="sNombre">Nombre</label></td> 
+            <td><input type="text" name="sNombre" id="sNombre"></td>  
+            </div>
+            <div class="apellidos">
+            <td><label for="sApellidos">Apellido</label></td> 
+            <td><input type="text" name="sApellidos" id="sApellidos"></td>  
+            </div>
+            <div class="edad">
+            <td><label for="sEdad">Edad</label>
+            <td><input type="number" name="sEdad" id="sEdad" min="40" max="100"><br>
+            </div>
+        </section>
+
+        
+        <section class="phone">    
+            <div>
+            <td><label for="Email">Email de Contacto</label></td>
+            <td><input type="email" name="Email" id="Email" placeholder="loli.gonu@gmail.com"></td>
+            </div>
+            <div>
+            <td><label for="viejunerTelefono">Teléfono Movil</label></td>
+            <td><input type="tel" name="viejunerTelefono" id="viejunerTelefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"></td>
+            </div>
+           </section>
+ 
+       
+        <section class="escribe">
+            <div>
+            <textarea name="escribe" id="escribe" placeholder="Escribe algo aqui.."></textarea>
+            </div>
+        </section>
+
+        <td style="text-align: center;"><input type="submit" value="enviar"></td>
+        
+    </div>
+
+
+</body>
+</html>
