@@ -1,0 +1,24 @@
+.perfil {
+  position: relative;
+  width: 50%;
+  background-color: white
+}
+.img-circle {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+}
+.text {
+  display: center;
+  width: auto;
+  background-color: gray;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+body {
+  background-color: tan;
+}
+function goBack() {
+  window.history.back();
+}
